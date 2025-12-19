@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 56;
 	objects = {
 
 /* Begin PBXContainerItemProxy section */
@@ -23,42 +23,53 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXBuildFile section */
+		EBB08C198809423A9B501390 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10BF1F1AA12A42C1A10F27A3 /* AppDelegate.swift */; };
+		EEFEF60952AB4894B9B722F6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB24BAF4E5047199FEDFF0A /* SceneDelegate.swift */; };
+		6BB548685ED74F2BA332E2F8 /* Assets.xcassets in Sources */ = {isa = PBXBuildFile; fileRef = 784A6D1FCD134ADC8DDA5DE9 /* Assets.xcassets */; };
+		654CDBFFEA6D4803977AE2F1 /* CachedHolding.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E840E8D4CA4C77A841402F /* CachedHolding.swift */; };
+		71EBE6DD57F4428295BAD8BC /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A6ED2E543C460C8B9585AF /* Constant.swift */; };
+		F694933FDF8C4E5593F586A2 /* HoldingsPersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F677EF52674C299B066C5D /* HoldingsPersistenceManager.swift */; };
+		6904A08A4E2742EA8D638665 /* StockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DD39CA9B0B45B8A2FE0236 /* StockData.swift */; };
+		5DA3C22DD998437AA8206FE9 /* HoldingsDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8899860E447C4A86993DFFB4 /* HoldingsDataModel.xcdatamodeld */; };
+		ED5DC2AD6BCC4CB9A50421BC /* BottomFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF447E7CF36A421DB32CA427 /* BottomFooterView.swift */; };
+		F57A29330E7B489384737AB5 /* HoldingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69885B5C9D414471A00152FC /* HoldingsViewController.swift */; };
+		D9658E98284748E3930B8560 /* HoldingsViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23759BD4630C445798DCFF5E /* HoldingsViewModelProtocol.swift */; };
+		475A1513D5C24D88BED98A02 /* ExpandedFooterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64FEDA155C1C438A845B456B /* ExpandedFooterTableViewCell.swift */; };
+		5350689AD34B4791ADC65A1F /* UserHoldingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DEEA197A094A869F87E4C8 /* UserHoldingTableViewCell.swift */; };
+		6A6A71F5D18C4D9CBAC70926 /* HoldingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AA67365303434D8FBD8D6F /* HoldingsViewModel.swift */; };
+		FC47F2535B3749E7B0FC2BA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 784A6D1FCD134ADC8DDA5DE9 /* Assets.xcassets */; };
+		567D8BF7B07245F0ACC9D874 /* NileshDVernekarDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7C1D1CCCE24E80B44B5AAB /* NileshDVernekarDemoTests.swift */; };
+		1032EA0A9D014144A986BE14 /* NileshDVernekarDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7287F71695874041B55ADB5C /* NileshDVernekarDemoUITests.swift */; };
+		9A732D71E76F4FCA94A8F0AF /* NileshDVernekarDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A875CF75841A41DD89EC47B0 /* NileshDVernekarDemoUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+
 /* Begin PBXFileReference section */
 		1025C5772EF561EA0048F768 /* NileshDVernekarDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NileshDVernekarDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1025C58D2EF561EC0048F768 /* NileshDVernekarDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NileshDVernekarDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1025C5972EF561EC0048F768 /* NileshDVernekarDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NileshDVernekarDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		10BF1F1AA12A42C1A10F27A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8CB24BAF4E5047199FEDFF0A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		106E644FAD1E4C9E95E2EA98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		784A6D1FCD134ADC8DDA5DE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F7E840E8D4CA4C77A841402F /* CachedHolding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CachedHolding.swift; sourceTree = "<group>"; };
+		B2A6ED2E543C460C8B9585AF /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		45F677EF52674C299B066C5D /* HoldingsPersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoldingsPersistenceManager.swift; sourceTree = "<group>"; };
+		49DD39CA9B0B45B8A2FE0236 /* StockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockData.swift; sourceTree = "<group>"; };
+		8899860E447C4A86993DFFB4 /* HoldingsDataModel.xcdatamodeld */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HoldingsDataModel.xcdatamodeld; sourceTree = "<group>"; };
+		DF447E7CF36A421DB32CA427 /* BottomFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomFooterView.swift; sourceTree = "<group>"; };
+		69885B5C9D414471A00152FC /* HoldingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoldingsViewController.swift; sourceTree = "<group>"; };
+		23759BD4630C445798DCFF5E /* HoldingsViewModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoldingsViewModelProtocol.swift; sourceTree = "<group>"; };
+		64FEDA155C1C438A845B456B /* ExpandedFooterTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandedFooterTableViewCell.swift; sourceTree = "<group>"; };
+		C3DEEA197A094A869F87E4C8 /* UserHoldingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserHoldingTableViewCell.swift; sourceTree = "<group>"; };
+		18AA67365303434D8FBD8D6F /* HoldingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoldingsViewModel.swift; sourceTree = "<group>"; };
+		AF7C1D1CCCE24E80B44B5AAB /* NileshDVernekarDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NileshDVernekarDemoTests.swift; sourceTree = "<group>"; };
+		7287F71695874041B55ADB5C /* NileshDVernekarDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NileshDVernekarDemoUITests.swift; sourceTree = "<group>"; };
+		A875CF75841A41DD89EC47B0 /* NileshDVernekarDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NileshDVernekarDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		1025C59F2EF561EC0048F768 /* Exceptions for "NileshDVernekarDemo" folder in "NileshDVernekarDemo" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 1025C5762EF561EA0048F768 /* NileshDVernekarDemo */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		1025C5792EF561EA0048F768 /* NileshDVernekarDemo */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				1025C59F2EF561EC0048F768 /* Exceptions for "NileshDVernekarDemo" folder in "NileshDVernekarDemo" target */,
-			);
-			path = NileshDVernekarDemo;
-			sourceTree = "<group>";
-		};
-		1025C5902EF561EC0048F768 /* NileshDVernekarDemoTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = NileshDVernekarDemoTests;
-			sourceTree = "<group>";
-		};
-		1025C59A2EF561EC0048F768 /* NileshDVernekarDemoUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = NileshDVernekarDemoUITests;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		1025C5742EF561EA0048F768 /* Frameworks */ = {
@@ -88,9 +99,9 @@
 		1025C56E2EF561EA0048F768 = {
 			isa = PBXGroup;
 			children = (
-				1025C5792EF561EA0048F768 /* NileshDVernekarDemo */,
-				1025C5902EF561EC0048F768 /* NileshDVernekarDemoTests */,
-				1025C59A2EF561EC0048F768 /* NileshDVernekarDemoUITests */,
+				9BEDC6BE146C49C0BE52ABDF /* NileshDVernekarDemo */,
+				0FAEC7E5C26B467490AD0192 /* NileshDVernekarDemoTests */,
+				B878B6C91F74427A8B1CAFD4 /* NileshDVernekarDemoUITests */,
 				1025C5782EF561EA0048F768 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -103,6 +114,77 @@
 				1025C5972EF561EC0048F768 /* NileshDVernekarDemoUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		9BEDC6BE146C49C0BE52ABDF /* NileshDVernekarDemo */ = {
+			isa = PBXGroup;
+			children = (
+				10BF1F1AA12A42C1A10F27A3 /* AppDelegate.swift */,
+				8CB24BAF4E5047199FEDFF0A /* SceneDelegate.swift */,
+				5F70C2BBB15A418C945761A5 /* Model */,
+				1F3CC5341667402283E37805 /* View */,
+				48326187B3B24FBAA15877BC /* ViewModel */,
+				784A6D1FCD134ADC8DDA5DE9 /* Assets.xcassets */,
+				106E644FAD1E4C9E95E2EA98 /* Info.plist */,
+			);
+			path = NileshDVernekarDemo;
+			sourceTree = "<group>";
+		};
+		5F70C2BBB15A418C945761A5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F7E840E8D4CA4C77A841402F /* CachedHolding.swift */,
+				B2A6ED2E543C460C8B9585AF /* Constant.swift */,
+				45F677EF52674C299B066C5D /* HoldingsPersistenceManager.swift */,
+				49DD39CA9B0B45B8A2FE0236 /* StockData.swift */,
+				8899860E447C4A86993DFFB4 /* HoldingsDataModel.xcdatamodeld */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1F3CC5341667402283E37805 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DF447E7CF36A421DB32CA427 /* BottomFooterView.swift */,
+				69885B5C9D414471A00152FC /* HoldingsViewController.swift */,
+				23759BD4630C445798DCFF5E /* HoldingsViewModelProtocol.swift */,
+				F008030733BA4C76B8C482F7 /* TableViewCell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F008030733BA4C76B8C482F7 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				64FEDA155C1C438A845B456B /* ExpandedFooterTableViewCell.swift */,
+				C3DEEA197A094A869F87E4C8 /* UserHoldingTableViewCell.swift */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		48326187B3B24FBAA15877BC /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				18AA67365303434D8FBD8D6F /* HoldingsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		0FAEC7E5C26B467490AD0192 /* NileshDVernekarDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				AF7C1D1CCCE24E80B44B5AAB /* NileshDVernekarDemoTests.swift */,
+			);
+			path = NileshDVernekarDemoTests;
+			sourceTree = "<group>";
+		};
+		B878B6C91F74427A8B1CAFD4 /* NileshDVernekarDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7287F71695874041B55ADB5C /* NileshDVernekarDemoUITests.swift */,
+				A875CF75841A41DD89EC47B0 /* NileshDVernekarDemoUITestsLaunchTests.swift */,
+			);
+			path = NileshDVernekarDemoUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,9 +201,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				1025C5792EF561EA0048F768 /* NileshDVernekarDemo */,
 			);
 			name = NileshDVernekarDemo;
 			packageProductDependencies = (
@@ -143,9 +222,6 @@
 			dependencies = (
 				1025C58F2EF561EC0048F768 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				1025C5902EF561EC0048F768 /* NileshDVernekarDemoTests */,
-			);
 			name = NileshDVernekarDemoTests;
 			packageProductDependencies = (
 			);
@@ -166,9 +242,6 @@
 			dependencies = (
 				1025C5992EF561EC0048F768 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				1025C59A2EF561EC0048F768 /* NileshDVernekarDemoUITests */,
-			);
 			name = NileshDVernekarDemoUITests;
 			packageProductDependencies = (
 			);
@@ -183,18 +256,18 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1600;
-				LastUpgradeCheck = 1600;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
 				TargetAttributes = {
 					1025C5762EF561EA0048F768 = {
-						CreatedOnToolsVersion = 16.0;
+						CreatedOnToolsVersion = 14.0;
 					};
 					1025C58C2EF561EC0048F768 = {
-						CreatedOnToolsVersion = 16.0;
+						CreatedOnToolsVersion = 14.0;
 						TestTargetID = 1025C5762EF561EA0048F768;
 					};
 					1025C5962EF561EC0048F768 = {
-						CreatedOnToolsVersion = 16.0;
+						CreatedOnToolsVersion = 14.0;
 						TestTargetID = 1025C5762EF561EA0048F768;
 					};
 				};
@@ -208,7 +281,7 @@
 			);
 			mainGroup = 1025C56E2EF561EA0048F768;
 			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
+			preferredProjectObjectVersion = 56;
 			productRefGroup = 1025C5782EF561EA0048F768 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -225,6 +298,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC47F2535B3749E7B0FC2BA4 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +323,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBB08C198809423A9B501390 /* AppDelegate.swift in Sources */,
+				EEFEF60952AB4894B9B722F6 /* SceneDelegate.swift in Sources */,
+				654CDBFFEA6D4803977AE2F1 /* CachedHolding.swift in Sources */,
+				71EBE6DD57F4428295BAD8BC /* Constant.swift in Sources */,
+				F694933FDF8C4E5593F586A2 /* HoldingsPersistenceManager.swift in Sources */,
+				6904A08A4E2742EA8D638665 /* StockData.swift in Sources */,
+				5DA3C22DD998437AA8206FE9 /* HoldingsDataModel.xcdatamodeld in Sources */,
+				ED5DC2AD6BCC4CB9A50421BC /* BottomFooterView.swift in Sources */,
+				F57A29330E7B489384737AB5 /* HoldingsViewController.swift in Sources */,
+				D9658E98284748E3930B8560 /* HoldingsViewModelProtocol.swift in Sources */,
+				475A1513D5C24D88BED98A02 /* ExpandedFooterTableViewCell.swift in Sources */,
+				5350689AD34B4791ADC65A1F /* UserHoldingTableViewCell.swift in Sources */,
+				6A6A71F5D18C4D9CBAC70926 /* HoldingsViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +343,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				567D8BF7B07245F0ACC9D874 /* NileshDVernekarDemoTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +351,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1032EA0A9D014144A986BE14 /* NileshDVernekarDemoUITests.swift in Sources */,
+				9A732D71E76F4FCA94A8F0AF /* NileshDVernekarDemoUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -386,7 +476,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -443,7 +533,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -461,7 +551,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = JN944ZJQAT;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.verizon.NileshDVernekarDemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -480,7 +570,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = JN944ZJQAT;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.verizon.NileshDVernekarDemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
