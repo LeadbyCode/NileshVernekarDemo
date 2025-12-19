@@ -8,8 +8,8 @@ class HoldingsPersistenceManager {
     static let shared = HoldingsPersistenceManager()
 
     private init() {
-        print("📁 Core Data store location: \(storeURL.path)")
-        print("✅ Core Data container initialized successfully")
+        print(" Core Data store location: \(storeURL.path)")
+        print(" Core Data container initialized successfully")
     }
 
     // MARK: - Core Data Stack
@@ -18,7 +18,7 @@ class HoldingsPersistenceManager {
         let container = NSPersistentContainer(name: "HoldingsDataModel")
         container.loadPersistentStores { storeDescription, error in
             if let error = error as NSError? {
-                print("❌ Failed to initialize Core Data container: \(error.localizedDescription)")
+                print(" Failed to initialize Core Data container: \(error.localizedDescription)")
                 fatalError("Unresolved error \(error), \(error.userInfo)")
             }
         }
@@ -47,9 +47,9 @@ class HoldingsPersistenceManager {
 
         do {
             try context.save()
-            print("✅ Saved \(holdings.count) holdings to Core Data")
+            print("Saved \(holdings.count) holdings to Core Data")
         } catch {
-            print("❌ Failed to save holdings: \(error.localizedDescription)")
+            print("Failed to save holdings: \(error.localizedDescription)")
         }
     }
 
@@ -61,10 +61,10 @@ class HoldingsPersistenceManager {
         do {
             let cachedHoldings = try context.fetch(fetchRequest)
             let holdings = cachedHoldings.map { $0.toUserHolding() }
-            print("✅ Fetched \(holdings.count) holdings from Core Data")
+            print("Fetched \(holdings.count) holdings from Core Data")
             return holdings
         } catch {
-            print("❌ Failed to fetch holdings: \(error.localizedDescription)")
+            print("Failed to fetch holdings: \(error.localizedDescription)")
             return []
         }
     }
